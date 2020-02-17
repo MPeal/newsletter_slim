@@ -1,0 +1,30 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/view.css">
+</head>
+<body>
+	<div class="text-center"><h1>Subscriber List</h1></div>
+	<div class="container">
+		<div class='row'>
+			<div class='col-md-4 col-lg-4'>Name</div>
+			<div class='col-md-4 col-lg-4'>Email Address</div>
+			<div class='col-md-4 col-lg-4'>Signup Date</div>
+		</div>
+
+		<?php foreach ($subscribers as $sub): ?>
+			<div class='row'>
+				<div class='col-md-4 col-lg-4'>
+					<?=$sub->name ?>
+				</div>
+				<div class='col-md-4 col-lg-4'>
+					<?=$sub->email ?>
+				</div>
+				<div class='col-md-4 col-lg-4'>
+					<?=$sub->signup_date ?>
+				</div>
+			</div>
+		<?php endforeach; ?>
+	</div>
+</body>
+</html>
