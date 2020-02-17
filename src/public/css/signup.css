@@ -1,0 +1,51 @@
+.container {
+	display: block;
+	float: none;
+	position: relative;
+	width: 25vw;
+	margin: 0 auto;
+}
+
+h1 {
+	display: block;
+	float: none;
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#feedback {
+	color: red;
+	display: block;
+	float: none;
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	display: none;
+}
+
+#feedback.done {
+	color: green;
+}
+
+.missing {
+	border: 1px solid red;
+}
+
+form {
+	width: 100%;
+	margin-top: 10px;
+}
+
+input {
+	margin-top: 5px;
+}
+
+input[type="button"] {
+	display: block;
+	float: none;
+	position: relative;
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
