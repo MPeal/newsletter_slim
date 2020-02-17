@@ -1,0 +1,32 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/signup.css">
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+</head>
+<body>
+	<div class='container'>
+		<div class='row text-center'>
+			<h1>Sign Up Here</h1>
+		</div>
+		<div class='row text-center'>
+			<form>
+				<div class='row'>
+                	<div class='col-md-6 col-lg-6'><label>Name:</label></div>
+                	<div class='col-md-6 col-lg-6'><input type='text' id='name' name='name'></input></div>
+            	</div>
+    			<div class='row'>
+            		<div class='col-md-6 col-lg-6'><label>E-mail Address: </label></div>
+            		<div class='col-md-6 col-lg-6'><input type='text' id='email' name='email'></input></div>
+        		</div>
+    	
+        		<div class='row text-center'><input id="submit_btn" type="button" value="Submit"></input></div>
+    	</form>
+		</div>
+		<div id='feedback' class='row text-center'>
+			Missing information!
+		</div>
+	</div>
+	<script src="../js/signup_form.js"></script>
+</body>
+</html>
